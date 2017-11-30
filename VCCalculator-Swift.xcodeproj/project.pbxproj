@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD8E28FA1F1278BB0063C72E /* VCCalculatorKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD8E28F91F1278BB0063C72E /* VCCalculatorKeyboard.xib */; };
 		CDE40A6E1EEFA8F600FA394D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE40A6D1EEFA8F600FA394D /* AppDelegate.swift */; };
 		CDE40A701EEFA8F600FA394D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE40A6F1EEFA8F600FA394D /* ViewController.swift */; };
 		CDE40A731EEFA8F600FA394D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE40A711EEFA8F600FA394D /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		CDE40A781EEFA8F600FA394D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE40A761EEFA8F600FA394D /* LaunchScreen.storyboard */; };
 		CDE40A831EEFA8F600FA394D /* VCCalculator_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE40A821EEFA8F600FA394D /* VCCalculator_SwiftTests.swift */; };
 		CDE40A8E1EEFA8F600FA394D /* VCCalculator_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE40A8D1EEFA8F600FA394D /* VCCalculator_SwiftUITests.swift */; };
+		CDE40A9C1EF920BA00FA394D /* VCCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE40A9B1EF920BA00FA394D /* VCCalculatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD8E28F91F1278BB0063C72E /* VCCalculatorKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCCalculatorKeyboard.xib; sourceTree = "<group>"; };
 		CDE40A6A1EEFA8F600FA394D /* VCCalculator-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VCCalculator-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE40A6D1EEFA8F600FA394D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDE40A6F1EEFA8F600FA394D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		CDE40A891EEFA8F600FA394D /* VCCalculator-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VCCalculator-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE40A8D1EEFA8F600FA394D /* VCCalculator_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCalculator_SwiftUITests.swift; sourceTree = "<group>"; };
 		CDE40A8F1EEFA8F600FA394D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE40A9B1EF920BA00FA394D /* VCCalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCCalculatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +102,13 @@
 			isa = PBXGroup;
 			children = (
 				CDE40A6D1EEFA8F600FA394D /* AppDelegate.swift */,
+				CDE40A9B1EF920BA00FA394D /* VCCalculatorView.swift */,
 				CDE40A6F1EEFA8F600FA394D /* ViewController.swift */,
 				CDE40A711EEFA8F600FA394D /* Main.storyboard */,
 				CDE40A741EEFA8F600FA394D /* Assets.xcassets */,
 				CDE40A761EEFA8F600FA394D /* LaunchScreen.storyboard */,
 				CDE40A791EEFA8F600FA394D /* Info.plist */,
+				CD8E28F91F1278BB0063C72E /* VCCalculatorKeyboard.xib */,
 			);
 			path = "VCCalculator-Swift";
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD8E28FA1F1278BB0063C72E /* VCCalculatorKeyboard.xib in Resources */,
 				CDE40A781EEFA8F600FA394D /* LaunchScreen.storyboard in Resources */,
 				CDE40A751EEFA8F600FA394D /* Assets.xcassets in Resources */,
 				CDE40A731EEFA8F600FA394D /* Main.storyboard in Resources */,
@@ -262,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE40A9C1EF920BA00FA394D /* VCCalculatorView.swift in Sources */,
 				CDE40A701EEFA8F600FA394D /* ViewController.swift in Sources */,
 				CDE40A6E1EEFA8F600FA394D /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +522,7 @@
 				CDE40A941EEFA8F600FA394D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDE40A951EEFA8F600FA394D /* Build configuration list for PBXNativeTarget "VCCalculator-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +531,7 @@
 				CDE40A971EEFA8F600FA394D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDE40A981EEFA8F600FA394D /* Build configuration list for PBXNativeTarget "VCCalculator-SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +540,7 @@
 				CDE40A9A1EEFA8F600FA394D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
